@@ -113,25 +113,27 @@
                 </router-link>
             </li>
             <li class="nav-item">
-            <router-link to="/employee" class="nav-link">
+                <router-link to="/employee" class="nav-link">
                     <i class="nav-icon fas fa-user"></i>
                     <p>
                         Funcionarios
                     </p>
                 </router-link>
             </li>
-            <li class="nav-item">
+             <li class="nav-item">
                   <a class="nav-link" href="{{ route('logout') }}"
                       onclick="event.preventDefault();
                     document.getElementById('logout-form').submit();">
                         <i class="nav-icon fas fa-power-off red"></i>
-                        {{ __('Logout') }}
+                        <p>
+                            {{ __('Logout') }}
+                        </p>
+                             
                   </a>
-
                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                   @csrf
                 </form>
-              </li>
+             </li>
         </ul>
     </nav>
       <!-- /.sidebar-menu -->
