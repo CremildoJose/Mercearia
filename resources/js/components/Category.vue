@@ -6,7 +6,11 @@
                     <div class="card-header">Category Component</div>
 
                     <div class="card-body">
-                        I'm an example component.
+                        <table>
+                            <tr>
+                                <td>Linha 1</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
