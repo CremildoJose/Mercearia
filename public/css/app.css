@@ -30124,7 +30124,3 @@ readers do not read off random characters that represent icons */
   color: white !important;
 }
 
-.router-link-exact-active:hover {
-  color: white !important;
-}
-
